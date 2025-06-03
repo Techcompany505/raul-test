@@ -43,3 +43,37 @@ img {
   max-width: 100%;
   height: auto;
 }
+.grid-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+  padding: 2em;
+}
+
+.proyecto {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.proyecto:hover {
+  transform: scale(1.02);
+}
+
+.proyecto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.proyecto .info {
+  padding: 1em;
+  text-align: center;
+}
+
+.proyecto h3 {
+  margin: 0.5em 0 0.2em;
+  color: #0055a5;
+}
