@@ -2,30 +2,43 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Portafolio - El Maestro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyectos - Construcciones El Maestro</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Proyectos Realizados</h1>
-    <p>Una muestra de nuestro trabajo</p>
+    <p>Conoce algunos de los trabajos que hemos ejecutado</p>
   </header>
+
   <nav>
     <a href="index.html">Inicio</a>
     <a href="portafolio.html">Proyectos</a>
     <a href="contacto.html">Contacto</a>
   </nav>
 
-  <section>
-    <h2>Galería de trabajos</h2>
-    <p>Aquí puedes ver algunos de nuestros proyectos recientes:</p>
-
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1em;">
-      <img src="img/proyecto1.jpg" alt="Remodelación de cocina">
-      <img src="img/proyecto2.jpg" alt="Construcción de terraza">
-      <img src="img/proyecto3.jpg" alt="Revestimiento de fachada">
+  <main class="grid-proyectos">
+    <div class="proyecto">
+      <a href="proyecto1.html">
+        <img src="img/proyecto1.jpg" alt="Proyecto 1">
+        <div class="info">
+          <h3>Remodelación de cocina</h3>
+          <p>León, Nicaragua — Cliente: María Ruiz</p>
+        </div>
+      </a>
     </div>
-  </section>
+    <div class="proyecto">
+      <a href="proyecto2.html">
+        <img src="img/proyecto2.jpg" alt="Proyecto 2">
+        <div class="info">
+          <h3>Fachada residencial</h3>
+          <p>Managua, Nicaragua — Cliente: Carlos Martínez</p>
+        </div>
+      </a>
+    </div>
+    <!-- Agrega más proyectos así -->
+  </main>
 
   <footer>
     &copy; 2025 Construcciones El Maestro
